@@ -5,7 +5,7 @@ class Tree:
     def __init__(self, data):
         self.data = data
         self.left = None
-        self.right = None  # a tree with no children may still be a bst
+        self.right = None  # a tree with no subtrees is still a bst
 
 
 def is_bst(node, minim, maxim):
